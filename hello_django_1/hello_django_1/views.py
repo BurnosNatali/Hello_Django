@@ -6,4 +6,4 @@ def about(request):
     return render(request, "about.html", {'getting':a})
 
 def home(request):
-    return HttpResponse("Здравствуйте!Ура,я дом!")
+    return HttpResponse("Привет,я дом!")
